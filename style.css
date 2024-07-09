@@ -1,0 +1,100 @@
+body{
+    background-color: #E5F0F3;
+}
+
+header{
+    /*background-color: gray;*/
+    text-align: center;
+    flex-direction: initial;
+}
+
+main{
+    /*background-color: gray;*/
+    margin: 20px;
+    padding: 15
+    px;
+}
+
+footer{
+    background-color: #7c8689;
+    /*margin: 20px;*/
+    padding: 15px;
+}
+
+.image-profile{
+    width: 190px;
+    border-radius: 12rem;
+    margin: 20px;
+}
+
+.u_list{
+    list-style: none;
+}
+
+.intro{
+    background-color: #4fd3f7;
+    display: flex;
+    flex-direction: row;
+}
+
+.body-structure{
+    background-color: #4fd3f7;
+    padding: 40px;
+    
+}
+
+.aside-structure{
+    background-color: #4fd3f7;
+    display: flex;
+    flex-direction: row;
+}
+
+.contacts{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+#software-skills{
+    /*background-color: white;*/
+    margin: 20px;
+}
+
+#soft-skills{
+    /*background-color: white;*/
+    margin: 20px;
+    position: absolute;
+    left: 40%;
+}
+
+#lenguagues{
+    /*background-color: white;*/
+    margin: 20px;
+    position: absolute;
+    left: 86%;
+}
+
+.logo{
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+}
+
+.telephone{
+    /*background-color: white;*/
+    margin: 20px;
+}
+
+.website{
+    /*background-color: white;*/
+    margin: 20px;
+    position: absolute;
+    left: 36%;
+}
+
+.e-mail{
+    /*background-color: white;*/
+    margin: 20px;
+    position: absolute;
+    left: 80%;
+}
