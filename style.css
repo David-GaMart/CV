@@ -1,22 +1,28 @@
 body{
-    background-color: #E5F0F3;
+    background-image: url(./assets/background.png);
+    /*background-color: #E5F0F3;*/
+    margin: 0px;
 }
 
 header{
-    /*background-color: gray;*/
+    background-color: rgba(230, 230, 230, .7);
     text-align: center;
     flex-direction: initial;
+    position: relative;
+    width: 400px;
+    left: 35%;
+    
 }
 
 main{
     /*background-color: gray;*/
     margin: 20px;
-    padding: 15
-    px;
+    padding: 15px;
 }
 
 footer{
     background-color: #7c8689;
+    width: 100%;
     /*margin: 20px;*/
     padding: 15px;
 }
@@ -27,24 +33,31 @@ footer{
     margin: 20px;
 }
 
+.profile-description{
+    margin: 10px;
+}
+
 .u_list{
     list-style: none;
 }
 
 .intro{
-    background-color: #4fd3f7;
+    background-color: rgba(230, 230, 230, .9);
     display: flex;
     flex-direction: row;
 }
 
 .body-structure{
-    background-color: #4fd3f7;
+    background-color: rgba(230, 230, 230, .9);
     padding: 40px;
     
 }
 
 .aside-structure{
-    background-color: #4fd3f7;
+    
+    background-color: rgba(230, 230, 230, .9);
+    height: 250px;
+    position: relative;
     display: flex;
     flex-direction: row;
 }
@@ -55,29 +68,14 @@ footer{
     flex-direction: row;
 }
 
-#software-skills{
-    /*background-color: white;*/
-    margin: 20px;
-}
-
-#soft-skills{
-    /*background-color: white;*/
-    margin: 20px;
-    position: absolute;
-    left: 40%;
-}
-
-#lenguagues{
-    /*background-color: white;*/
-    margin: 20px;
-    position: absolute;
-    left: 86%;
-}
-
 .logo{
     background-color: transparent;
     width: 15px;
     height: 15px;
+}
+
+.link{
+    text-decoration: none;
 }
 
 .telephone{
@@ -88,13 +86,43 @@ footer{
 .website{
     /*background-color: white;*/
     margin: 20px;
-    position: absolute;
-    left: 36%;
+    /*position: absolute;*/
 }
 
 .e-mail{
     /*background-color: white;*/
     margin: 20px;
+    /*position: absolute;*/
+}
+
+.github{
+    /*background-color: white;*/
+    margin: 20px;
+    /*position: absolute;*/
+}
+
+#software-skills{
+    /*background-color: white;*/
+    margin: 20px;
+    padding: 5px 8%;
+    border: 33%;
+}
+
+#soft-skills{
+    /*background-color: white;*/
+    margin: 20px;
+    border: 33%;
+    padding: 5px 8%;
     position: absolute;
-    left: 80%;
+    left: 30%;
+}
+
+#lenguagues{
+    /*background-color: white;*/
+    margin: 20px;
+    border: 33%;
+    padding: 5px;
+    width: 100;
+    position: absolute;
+    left: 70%;
 }
